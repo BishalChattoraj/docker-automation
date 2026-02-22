@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         IMAGE_NAME = "jenkins-docker-demo"
-        CONTAINER_NAME = "jenkins"
+        CONTAINER_NAME = "node-app"
     }
 
     stages {    
