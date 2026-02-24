@@ -5,7 +5,7 @@ const PORT = 3000;
 
 app.get('/', (req, res) => {
     res.json({
-        message: "🚀 Jenkins + Docker +git  Automation Successful,yeah!",
+        message: "🚀 Jenkins + Docker +git  Automation Successful!",
         timestamp: new Date()
     });
 });
